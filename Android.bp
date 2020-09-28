@@ -131,6 +131,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	product_specific: true,
+	check_elf_files: false,
 }
 
 android_app_import {
